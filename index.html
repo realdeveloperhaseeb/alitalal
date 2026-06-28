@@ -19,10 +19,10 @@
   <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
-  <!-- Outfit font -->
+  <!-- Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -70,47 +70,56 @@
     <!-- ===== HERO ===== -->
     <section class="hero" id="home">
       <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="eyebrow"><span class="pulse"></span>Available for new projects</span>
+        <div class="hero-copy">
+          <span class="eyebrow anim" style="--d:.05s"><span class="pulse"></span>Marketing Strategist &amp; Social Media Manager</span>
           <h1 class="hero-title">
-            Marketing shouldn't<br>feel <span class="grad">complicated.</span>
+            <span class="line anim" style="--d:.12s">Marketing that</span>
+            <span class="line anim" style="--d:.20s">actually moves</span>
+            <span class="line anim" style="--d:.28s">your <span class="grad">numbers.</span></span>
           </h1>
-          <p class="hero-sub">
-            I'm <strong>Ali Talal</strong> — a Marketing Strategist & Social Media Manager.
-            I help brands grow online with data-driven strategy, Meta &amp; TikTok Ads, and
-            creative visuals — so you can focus on your business.
+          <p class="hero-sub anim" style="--d:.36s">
+            I'm <strong>Ali Talal</strong>. I help brands grow online with data-driven strategy,
+            Meta &amp; TikTok Ads, and creative that converts — without the stress or the jargon.
           </p>
-          <div class="hero-actions">
+          <div class="hero-actions anim" style="--d:.44s">
             <a href="#contact" class="btn btn-primary">
               Let's scale your brand
               <svg viewBox="0 0 24 24" class="ic" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
             <a href="#work" class="btn btn-ghost">View my work</a>
           </div>
-          <ul class="hero-stats">
+          <ul class="hero-stats anim" style="--d:.52s">
             <li><strong data-count="50">50+</strong><span>Campaigns launched</span></li>
             <li><strong data-count="3">3x</strong><span>Avg. ROAS lift</span></li>
             <li><strong data-count="100">100%</strong><span>Focus on results</span></li>
           </ul>
         </div>
 
-        <div class="hero-visual reveal">
-          <div class="photo-wrap">
-            <div class="photo-glow"></div>
-            <img src="assets/profile.webp" alt="Portrait of Ali Talal" class="photo" width="900" height="900" />
-            <div class="float-card fc-1">
-              <svg viewBox="0 0 24 24" class="ic" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 7v5h-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <div><strong>Growth-driven</strong><span>Performance marketing</span></div>
+        <div class="hero-visual">
+          <div class="portrait">
+            <span class="portrait-accent" aria-hidden="true"></span>
+            <span class="portrait-dots" aria-hidden="true"></span>
+            <div class="portrait-frame">
+              <img src="assets/profile.webp" alt="Portrait of Ali Talal" width="900" height="900" />
             </div>
-            <div class="float-card fc-2">
-              <svg viewBox="0 0 24 24" class="ic" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linejoin="round"/></svg>
-              <div><strong>Creative + Data</strong><span>That converts</span></div>
+            <!-- rotating seal -->
+            <div class="seal" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <defs>
+                  <path id="sealPath" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0" />
+                </defs>
+                <text><textPath href="#sealPath" startOffset="0">· OPEN FOR PROJECTS · MARKETING STRATEGIST </textPath></text>
+              </svg>
+              <span class="seal-core">
+                <svg viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
             </div>
           </div>
         </div>
       </div>
-      <a href="#about" class="scroll-cue" aria-label="Scroll down">
-        <span></span>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to about">
+        <span class="scroll-line"></span>
+        <em>Scroll</em>
       </a>
     </section>
 
