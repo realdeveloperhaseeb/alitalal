@@ -315,8 +315,7 @@ a { color: inherit; text-decoration: none; }
   .nav-links, .nav-cta { display: none; }
   .nav-toggle { display: flex; }
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
-  .hero-visual { order: -1; }
-  .photo-wrap { width: min(360px, 78%); }
+  .portrait { width: min(360px, 78%); }
   .about-grid { grid-template-columns: 1fr; gap: 36px; }
   .cards, .results-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-panel { grid-template-columns: 1fr; padding: 38px 30px; }
