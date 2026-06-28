@@ -1,0 +1,21 @@
+# Dependencies (sharp was only used locally to optimize images — not part of the site)
+node_modules/
+package.json
+package-lock.json
+
+# Original full-resolution source images (optimized webp copies live in /assets)
+11.jpeg
+12.png
+13.png
+33.png
+334.jpeg
+54.jpeg
+18a01102-802b-459e-bf88-2e21c36c47f1.png
+ali-talal-profile.jpg
+bio.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

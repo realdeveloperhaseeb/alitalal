@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ali Talal monogram">
+  <defs>
+    <linearGradient id="atg" x1="20" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34d8a9"/>
+      <stop offset="1" stop-color="#0e9e78"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="184" height="184" rx="46" fill="#0c1218"/>
+  <rect x="8.5" y="8.5" width="183" height="183" rx="45.5" stroke="url(#atg)" stroke-opacity="0.55"/>
+  <!-- Monogram A -->
+  <path d="M58 142 L86 58 H100 L72 142 Z" fill="url(#atg)"/>
+  <path d="M70 112 H104 V126 H66 Z" fill="url(#atg)"/>
+  <!-- Monogram T -->
+  <path d="M104 58 H156 V72 H104 Z" fill="#eef2f5"/>
+  <path d="M123 58 H137 V142 H123 Z" fill="#eef2f5"/>
+  <!-- accent dot -->
+  <circle cx="150" cy="150" r="9" fill="#f5b53d"/>
+</svg>
